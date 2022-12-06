@@ -64,3 +64,9 @@
     justify-content: center;
 
   }
+
+  @media screen and (max-width: 480px) {
+   .enterBtn{
+    font-size: 7vw;
+   }
+  }

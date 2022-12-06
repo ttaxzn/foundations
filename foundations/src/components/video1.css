@@ -1,3 +1,9 @@
-.video{
-    width: 1vw;
+.video1{
+    width: 60vw;
 }
+
+@media screen and (max-width: 480px) {
+    .video1{
+     width: 100vw;
+    }
+   }

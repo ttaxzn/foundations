@@ -17,6 +17,7 @@ a:-webkit-any-link{
     justify-content: center;
     gap: 12vw;
     font-family: 'Kelvinized';
+    font-size: 1vw;
 }
 
 .hover-underline-animation {
@@ -78,7 +79,7 @@ a:-webkit-any-link{
     height: 40vh;
   }
 
-  .webContainer{
+  .webContainer1{
     background-color: black;
     width: 100vw;
     height: 40vh;
@@ -116,5 +117,8 @@ a:-webkit-any-link{
         font-size: 8vw;
     }
    
+    .text{
+      font-size: 4vw;
+    }
 
   }

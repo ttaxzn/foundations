@@ -29,7 +29,7 @@ function Home(){
         Our success starts from monetization and social media strategies that we have uncovered through our experience.
         </div>
         </div>
-        <div class="webContainer">
+        <div class="webContainer1">
         </div>
     </>
     )
