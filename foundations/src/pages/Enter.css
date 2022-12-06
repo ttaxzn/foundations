@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: 'Kelvinized';
+    src: local('Kelvinzed'), url(../fonts/Kelvinized.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Athena';
+    src: local('Athena'), url(../fonts/Athena.ttf) format('truetype');
+  }
+  
+  .enter{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30vh;
+  }
+  
+  .enterBtn{
+    font-size: 3vw;
+    font-family: 'Kelvinized';
+    color: white;
+    
+  }
+
+  a:-webkit-any-link {
+    text-decoration: none;
+    color:white;
+  }
+  
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 2px;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .webContainer{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
